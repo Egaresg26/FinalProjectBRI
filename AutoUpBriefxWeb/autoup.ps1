@@ -18,7 +18,7 @@ try {
         Start-Sleep -Seconds 2
         Start-Website -Name "NewTRA"
         $logMessage += "`r`n$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - Situs web berhasil direstart"
-		Write-Host "Halaman Web Berhasi Gagal Diakses, Restart Web berhasil"
+		Write-Host "Halaman Web Gagal Diakses, Restart Web berhasil"
     }
 } catch {
     # Tangani kesalahan saat melakukan permintaan ke halaman web
